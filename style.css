@@ -1,0 +1,32 @@
+body {
+    background-image: url();
+    background-color: #cccccc;
+   }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 10vh 60vh 10vh 10vh;
+}
+
+button{
+    height: auto;
+    width: auto;
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Brush Script MT', Brush Script Std, cursive;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 5em;
+}
+
+.enter{
+    grid-area: 4/2/span 1/span 1;
+}
+
+.header{
+    grid-area: 2/2/span 1/ span 1;
+    text-align: center;
+}
