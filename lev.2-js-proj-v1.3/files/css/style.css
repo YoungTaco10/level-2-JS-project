@@ -1,0 +1,51 @@
+body {
+    background: url(exterior.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 10vh 60vh 10vh 5vh 5vh;
+}
+
+button{
+    height: auto;
+    width: auto;
+    background-color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: rgb(190, 222, 250);
+}
+
+button:hover{
+    background-color: rgb(228, 19, 60);
+    color: rgb(166, 198, 226);
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Brush Script MT', Brush Script Std, cursive;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 5em;
+    color: rgb(190, 222, 250);
+}
+
+.enter{
+    grid-area: 4/2/span 1/span 1;
+}
+
+.header{
+    grid-area: 2/2/span 1/span 1;
+    text-align: center;
+}
+
+.footer{
+    grid-area: 6 /1 /span 1/ span 3;
+    background-color: black;
+}
