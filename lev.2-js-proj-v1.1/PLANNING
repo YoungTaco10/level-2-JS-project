@@ -1,0 +1,32 @@
+HAUNTED HOUSE DAY 1
+Todo: 
+- Determine requirements for project
+- Make a map blueprint of the house (JASPER)
+- Look for assets (Adam)
+NEXT STEPS
+- add mobs to each room in the plan. 
+- make a home screen which tells the user to enter the house
+- create a folder with all of the image assets
+
+HAUNTED HOUSE DAY 2
+Todo:
+- Make outside/home screen HTML (Adam)
+- Start CSS(Jasper)
+NEXT STEPS
+- Find outside house image (Adam)
+- Finish CSS for outside (Jasper)
+
+HAUNTED HOUSE DAY 3
+Todo:
+- Add image for outside and finish CSS for outside house (Jasper)
+- Make basic HTML for all of the floors (Adam)
+NEXT STEPS
+- Make start button work with JS(Adam)
+- Clean up GitHub (Jasper)
+- Place Mobs in HTML (Jasper)
+
+HAUNTED HOUSE DAY 4
+Todo:
+- Do the basics CSS for all of the different floors and add HTML elements to match (Jasper)
+- Decide which places will result in good and bad endings (Adam)
+- Make bad and good versions of each alterable location (Adam)
