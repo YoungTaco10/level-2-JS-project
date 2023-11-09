@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floor 1</title>
+    <link rel="stylesheet" href="../css/floor1.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <h1 id="LocationName">Floor One</h1>
+        <p id="Message">You enter the haunted mansion and are greeted with 4 choices. Enter the bathroom to your right. Ascend the stairs to the second floor. View the dinner options in the dining room. Explore the clothes in the small closet.</p>
+        <div id="buttonContainer">
+            <button id="l1" onclick="buttonClicked(this.innerHTML);">Bathroom</button>
+            <button id="l2" onclick="window.location.href='floor2.html';">Upstairs</button>
+            <button id="l3" onclick="buttonClicked(this.innerHTML);">Closet</button>
+            <button id="l4" onclick="buttonClicked(this.innerHTML);">Dining Room</button>
+        </div>
+        <div class="footer">
+            <div id="homelink"><a href="../../index.html">HOME</a></div> 
+            <span>Adam Eldabe Jasper Hall</span>
+        </div>
+    </div>
+</body>
+</html>

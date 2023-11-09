@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floor 2</title>
+    <link rel="stylesheet" href="../css/floor2.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <div class="grid-container">
+        <h1 id="LocationName">Floor Two</h1>
+        <p id="Message">You walk up the stairs and reach another hallway. There appears to be a set of stairs leading to an attic. There is a large bathroom. There is a door which leads to a bedroom. Behind you there is a different hallway.</p>
+        <div id="buttonContainer">
+            <button id="l1" onclick="window.location.href='floor1.html';">Back Down</button>
+            <button id="l2" onclick="window.location.href='attic.html';">Up to Attic</button>
+            <button id="l3" onclick="buttonClicked(this.innerHTML);">Master Bathroom</button>
+            <button id="l4" onclick="buttonClicked(this.innerHTML);">Master Bedroom</button>
+            <button id="l5" onclick="window.location.href='spire.html';">Spire</button>
+        </div>
+        <div class="footer">
+            <div id="homelink"><a href="../../index.html">HOME</a></div> 
+            <span>Adam Eldabe Jasper Hall</span>
+        </div>
+    </div>
+</body>
+</html>

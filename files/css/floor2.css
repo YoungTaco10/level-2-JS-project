@@ -1,0 +1,62 @@
+body {
+    background: url(../../assets/locations/base-locations/floor2hallway.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   }
+
+   .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5vh 10vh 5vh 50vh 10vh 10vh 5vh 5vh;
+}
+
+button{
+    height: auto;
+    width: auto;
+    background-color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: rgb(190, 222, 250);
+}
+
+button:hover{
+    background-color: rgb(228, 19, 60);
+    color: rgb(166, 198, 226);
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Brush Script MT', Brush Script Std, cursive;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 5em;
+    color: rgb(190, 222, 250);
+    grid-area: 2/2/span 1/span 1;
+    text-align: center;
+}
+
+#buttonContainer{
+    grid-area: 6/2/span 1/span 1;
+}
+
+.footer{
+    grid-area: 8 /1 /span 1/ span 3;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.894);
+    text-align: right;
+}
+
+#Message{
+    grid-area: 5/1/span 1/ span 3;
+    color: rgb(99, 3, 22);
+    background-color: rgb(190, 222, 250);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#homelink{
+    text-align: left;
+}
